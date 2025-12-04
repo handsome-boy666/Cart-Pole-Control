@@ -2,15 +2,7 @@
 
 一个统一的 Python 仿真平台，对比四类控制方法：PID、LQR、模糊控制与MPC，在小角度稳摆与位置抑制任务下进行一致性评估。支持动画展示、统一对比三联图与指标导出。
 
-## 目录结构
-- `models/` 倒立摆非线性动力学与数值步进
-- `controllers/` 四类控制器实现：`pid.py`、`lqr.py`、`fuzzy.py`、`mpc.py`
-- `experiments/` 动画与统一对比脚本：`animate_cartpole.py`、`run_scenarios.py`
-- `results_*` 运行输出：动画轨迹、状态与力曲线、统一对比图与指标CSV
-- `main.py` 菜单式入口（含动画与统一对比）
-- `先进控制基础课程报告.pdf` 课程报告
-
-## 效果预览
+## 效果展示
 
 ### 无控制（参考基线）
 <div align="center">
@@ -61,6 +53,14 @@
   <img src="结果/results_模糊控制/animate_trace_x.png" alt="模糊 位置x" width="260" />
   <img src="结果/results_模糊控制/animate_trace_F.png" alt="模糊 力F" width="260" />
 </p>
+
+## 目录结构
+- `models/` 倒立摆非线性动力学与数值步进
+- `controllers/` 四类控制器实现：`pid.py`、`lqr.py`、`fuzzy.py`、`mpc.py`
+- `experiments/` 动画与统一对比脚本：`animate_cartpole.py`、`run_scenarios.py`
+- `results_*` 运行输出：动画轨迹、状态与力曲线、统一对比图与指标CSV
+- `main.py` 菜单式入口（含动画与统一对比）
+- `先进控制基础课程报告.pdf` 课程报告
 
 
 ## 快速开始
