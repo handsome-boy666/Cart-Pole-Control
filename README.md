@@ -2,8 +2,6 @@
 
 一个统一的 Python 仿真平台，对比四类控制方法：PID、LQR、模糊控制与MPC，在小角度稳摆与位置抑制任务下进行一致性评估。支持动画展示、统一对比三联图与指标导出。
 
-## 效果展示
-
 ### 无控制（参考基线）
 <div align="center">
   <img src="结果/results_无控制/cartpole_animation.gif" alt="无控制 动画" width="360" />
