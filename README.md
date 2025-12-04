@@ -58,7 +58,6 @@
 - `experiments/` 动画与统一对比脚本：`animate_cartpole.py`、`run_scenarios.py`
 - `results_*` 运行输出：动画轨迹、状态与力曲线、统一对比图与指标CSV
 - `main.py` 菜单式入口（含动画与统一对比）
-- `先进控制基础课程报告.pdf` 课程报告
 
 
 ## 快速开始
